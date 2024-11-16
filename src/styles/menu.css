@@ -1,0 +1,39 @@
+/* styles/menu.css */
+.menubar-container {
+    background-color: #ffaa1d;  /* Color de fondo amarillo */
+}
+
+.menubar-container .p-menubar {
+    background-color: #ffaa1d;  /* Asegura que el fondo del menubar también sea amarillo */
+    color: white;  /* Cambiar el color del texto a blanco para contrastar con el fondo */
+}
+
+.menubar-container .p-menuitem-link:hover {
+    background-color: #ff9000;  /* Un tono más oscuro de amarillo para el hover */
+}
+
+/* Asegurar que los botones al final también tengan el mismo color */
+.menubar-end .p-button {
+    background-color: #ffaa1d; /* Fondo amarillo para los botones */
+    color: white;  /* Texto blanco */
+}
+
+.menubar-end .p-button:hover {
+    background-color: #ff9000;  /* Un tono más oscuro para el hover */
+}
+
+
+/* styles/menu.css */
+.menubar-container {
+    display: flex;
+    justify-content: space-between; /* Asegura que los elementos estén distribuidos */
+    align-items: center;
+}
+
+.menubar-end {
+    margin-left: auto; /* Esto empuja los elementos al final de la fila */
+    display: flex;
+    gap: 10px; /* Espaciado entre los botones */
+}
+
+
